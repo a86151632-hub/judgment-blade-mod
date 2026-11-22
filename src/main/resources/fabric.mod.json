@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "judgmentblade",
+  "version": "${version}",
+  "name": "Judgment Blade (단죄의 성검 모드)",
+  "description": "단죄의 결계와 차원 단절 베기를 사용하는 고화력 액션 스킬 모드",
+  "authors": [
+    "a86151632-hub"
+  ],
+  "license": "MIT",
+  "icon": "assets/judgmentblade/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.a86151632hub.judgmentblade.JudgmentBladeMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
